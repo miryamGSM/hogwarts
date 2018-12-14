@@ -21,7 +21,6 @@ namespace UnityStandardAssets.ImageEffects
             Add = 1,
         }
 
-
         public SunShaftsResolution resolution = SunShaftsResolution.Normal;
         public ShaftsScreenBlendMode screenBlendMode = ShaftsScreenBlendMode.Screen;
 
@@ -45,7 +44,7 @@ namespace UnityStandardAssets.ImageEffects
 
         public override bool CheckResources () {
             CheckSupport (useDepthTexture);
-
+            //this is source comment
             sunShaftsMaterial = CheckShaderAndCreateMaterial (sunShaftsShader, sunShaftsMaterial);
             simpleClearMaterial = CheckShaderAndCreateMaterial (simpleClearShader, simpleClearMaterial);
 
