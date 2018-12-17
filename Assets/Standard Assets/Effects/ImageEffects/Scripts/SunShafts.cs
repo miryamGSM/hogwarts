@@ -131,8 +131,6 @@ namespace UnityStandardAssets.ImageEffects
                 sunShaftsMaterial.SetVector ("_BlurRadius4", new Vector4 (ofs, ofs, 0.0f, 0.0f) );
             }
 
-            // put together:
-
             if (v.z >= 0.0f)
                 sunShaftsMaterial.SetVector ("_SunColor", new Vector4 (sunColor.r, sunColor.g, sunColor.b, sunColor.a) * sunShaftIntensity);
             else
