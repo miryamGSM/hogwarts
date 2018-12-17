@@ -58,7 +58,7 @@ namespace UnityStandardAssets.ImageEffects
                 Graphics.Blit (source, destination);
                 return;
             }
-
+            //change!
             // we actually need to check this every frame
             if (useDepthTexture)
                 GetComponent<Camera>().depthTextureMode |= DepthTextureMode.Depth;
