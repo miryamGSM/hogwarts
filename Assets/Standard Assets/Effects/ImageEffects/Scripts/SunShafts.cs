@@ -44,7 +44,7 @@ namespace UnityStandardAssets.ImageEffects
 
         public override bool CheckResources () {
             CheckSupport (useDepthTexture);
-            //this is source comment (6)
+            //this is source comment (7)
             sunShaftsMaterial = CheckShaderAndCreateMaterial (sunShaftsShader, sunShaftsMaterial);
             simpleClearMaterial = CheckShaderAndCreateMaterial (simpleClearShader, simpleClearMaterial);
 
